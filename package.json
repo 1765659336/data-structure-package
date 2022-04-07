@@ -1,0 +1,13 @@
+{
+    "name": "langtoudatastructure",
+    "version": "2.4.0",
+    "description": "提供一些常用的数据结构以及它们对应的一些api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module"
+}
