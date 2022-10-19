@@ -1,9 +1,8 @@
 // 栈
 export default function(item) {
-    // 不使用this.item是因为使用者可以直接外部通过“实例.item”操作数组，破坏栈的结构 xxx
+    // 不使用因为const item = [];当使用Stack创建多个栈时,使用的都是这个[]
     // const item = [];
 
-    // 目前只能是使用this.item,因为const item = [];当使用Stack创建多个栈时,使用的都是这个[]
     this.item = item ? item : [];
     // 不使用this.push的原因是因为这样做,每一个new出来的对象都会去开辟一块空间用来保存这个方法,因为this会指向对象
     // 入栈
